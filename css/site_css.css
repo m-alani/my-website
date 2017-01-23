@@ -541,3 +541,25 @@ a.inline {
 a.inline:hover, a.inline:focus {
   color: #b7dde1;
 }
+
+.qa {
+  list-style-type: none;
+}
+
+.qa li {
+  display: block;
+}
+
+.question {
+  font-weight:bolder;
+  font-size: 22px;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+.answer {
+  padding-left: 22px;
+  font-weight: lighter;
+  font-size: 22px;
+  vertical-align: top;
+}

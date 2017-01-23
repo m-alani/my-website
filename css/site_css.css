@@ -351,12 +351,6 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(max-width:991px) {
-  .portfolio-box .portfolio-box-caption {
-      opacity: .7;
-  }
-}
-
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
@@ -492,8 +486,12 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+}
+
+.modal-footer .btn {
+  margin-top: 4px;
 }
 
 .btn-xl {
@@ -544,6 +542,8 @@ a.inline:hover, a.inline:focus {
 
 .qa {
   list-style-type: none;
+  list-style-position: inside;
+  padding-left: 5px;
 }
 
 .qa li {
@@ -562,4 +562,20 @@ a.inline:hover, a.inline:focus {
   font-weight: lighter;
   font-size: 22px;
   vertical-align: top;
+}
+
+@media(max-width:991px) {
+  .portfolio-box .portfolio-box-caption {
+      opacity: .7;
+  }
+
+  .question {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .answer {
+    padding-left: 18px;
+    font-size: 18px;
+  }
 }

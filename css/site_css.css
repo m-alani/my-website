@@ -35,6 +35,7 @@ a {
 a:hover,
 a:focus {
     color: #3b8891;
+    text-decoration: none;
 }
 
 h1,
@@ -48,7 +49,7 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -238,7 +239,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
@@ -528,7 +529,9 @@ body {
 footer {
     padding: 25px 5px 5px 5px;
     text-align: center;
-    font-size: 8px;
+}
+footer p {
+  font-size: 10px;
 }
 
 a.inline {
@@ -537,5 +540,4 @@ a.inline {
 
 a.inline:hover, a.inline:focus {
   color: #b7dde1;
-  text-decoration: none;
 }

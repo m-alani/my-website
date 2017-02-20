@@ -564,6 +564,11 @@ a.inline:hover, a.inline:focus {
   vertical-align: top;
 }
 
+.modal-body ul li {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 @media(max-width:991px) {
   .portfolio-box .portfolio-box-caption {
       opacity: .7;

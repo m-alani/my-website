@@ -11,7 +11,7 @@ This is the source code I am currently using for my own personal website: [www.a
 - Wow.js
 
 ## Copyrights
-The website is mainly based on the "Creative" boilerplate which can be found on [StartBootstrap's](https://startbootstrap.com/template-overviews/creative/) website.  
+The website is based on the "Creative" boilerplate which can be found on [StartBootstrap's](https://startbootstrap.com/template-overviews/creative/) website.  
 Heavily edited and added to by me.  
 
 -----  

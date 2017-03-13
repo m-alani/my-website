@@ -571,7 +571,7 @@ a.inline:hover, a.inline:focus {
 
 @media(max-width:991px) {
   .portfolio-box .portfolio-box-caption {
-      opacity: .7;
+      opacity: .9;
   }
 
   .question {

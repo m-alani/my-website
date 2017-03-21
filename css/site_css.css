@@ -205,11 +205,6 @@ aside {
     }
 }
 
-@keyframes zoomOut {
-  0%   { background-size: 200% auto; }
-  100% { background-size: 100% auto; }
-}
-
 header {
     position: relative;
     width: 100%;
@@ -222,7 +217,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    animation: zoomOut 5s ease-in-out;
 }
 
 header .header-content {
